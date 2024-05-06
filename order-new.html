@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Rhino</title>
+
+	
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/font.css"/>
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome-5-pro-master/css/all.css"/>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/intlTelInput.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles2.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive2.css"/>
+	
+</head>
+<body >
+
+
+	<main>
+
+		<section class="card-block order-block card-block-v2 order-block-v2">
+			<form action="#" class="label-inner">
+				<div class="content-width">
+					<div class="left">
+						<ul class="breadcrumb">
+							<li><a href="index.html"><i class="fal fa-long-arrow-left"></i>Вернуться в корзину</a></li>
+						</ul>
+						<h1>Оформление заказа</h1>
+
+						<div class="tabs">
+							<div class="tabs-menu">
+								<div class="wrap-menu">
+									<ul class="">
+										<li>Юридическим лицам</li>
+										<li>Физическим лицам</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="tab-content">
+								<div class="tab-item tab-item-1">
+									<div class="input-wrap input-wrap-select">
+
+										<select name="select-1" id="select-1" required>
+											<option value="0" selected disabled>Страна</option>
+											<option value="1" >Страна 1</option>
+											<option value="2" >Страна 2</option>
+											<option value="3" >Страна 3</option>
+										</select>
+										<label for="select-1"></label>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="email-order">Эл. почта</label>
+										<input type="email" id="email-order" name="email-order" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50 input-wrap-tel">
+										<label for="tel-order"></label>
+										<input type="text" id="tel-order" name="tel-order" class="tel-mask" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="name-order">Имя</label>
+										<input type="text" id="name-order" name="name-order" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="name-order-2">Фамилия</label>
+										<input type="text" id="name-order-2" name="name-order-2" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="firm-order">Организация</label>
+										<input type="text" id="firm-order" name="firm-order" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="inn-order">Код организации</label>
+										<input type="text" id="inn-order" name="inn-order" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="city-order">Город</label>
+										<input type="text" id="city-order" name="city-order" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="index-order">Индекс</label>
+										<input type="text" id="index-order" name="index-order" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap">
+										<label for="address-order">Адрес</label>
+										<input type="text" id="address-order" name="address-order" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+
+
+									<div class="input-wrap input-wrap-file">
+										<p class="label">Реквизиты предприятия</p>
+										<label for="file_upload1" class="label-file">
+											<input type="file" id="file_upload1" name="file_upload1">
+											<span class="label-text"> <img src="img/icon-4-127.svg" alt="">Прикрепить файл</span>
+											<span class="btn-delete"><i class="fal fa-trash-alt"></i></span>
+										</label>
+
+									</div>
+									<div class="input-wrap input-wrap-text">
+										<label for="message">Комментарий к заказу</label>
+										<textarea name="message" id="message"></textarea>
+										<span></span>
+									</div>
+								</div>
+								<div class="tab-item tab-item-2">
+									<div class="input-wrap input-wrap-select">
+
+										<select name="select-2" id="select-2" required>
+											<option value="0" selected disabled>Страна</option>
+											<option value="1" >Страна 1</option>
+											<option value="2" >Страна 2</option>
+											<option value="3" >Страна 3</option>
+										</select>
+										<label for="select-2"></label>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="email-order-2">Эл. почта</label>
+										<input type="email" id="email-order-2" name="email-order-2" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50 input-wrap-tel-2">
+										<label for="tel-order-2"></label>
+										<input type="text" id="tel-order-2" name="tel-order-2" class="tel-mask" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="name-order-2-1">Имя</label>
+										<input type="text" id="name-order-2-1" name="name-order-2-1" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="name-order-2-2">Фамилия</label>
+										<input type="text" id="name-order-2-2" name="name-order-2-2" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+
+									<div class="input-wrap input-wrap-50">
+										<label for="city-order-2">Город</label>
+										<input type="text" id="city-order-2" name="city-order-2" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-50">
+										<label for="index-order-2">Индекс</label>
+										<input type="text" id="index-order-2" name="index-order-2" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap">
+										<label for="address-order-2">Адрес</label>
+										<input type="text" id="address-order-2" name="address-order-2" required="required"/>
+										<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+									</div>
+									<div class="input-wrap input-wrap-text">
+										<label for="message-2">Комментарий к заказу</label>
+										<textarea name="message-2" id="message-2"></textarea>
+										<span></span>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="right">
+					<div class="wrap">
+						<h2>Итого</h2>
+						<div class="mob">
+							<ul>
+								<li>
+									<p class="name">Товары</p>
+									<p class="total">5220 €</p>
+								</li>
+								<li class="sale-li">
+									<p class="name">Скидка</p>
+									<p class="total">— 200 €</p>
+								</li>
+								<li>
+									<p class="name">НДС</p>
+									<p class="total">1004 €</p>
+								</li>
+								<li class="total-li">
+									<p class="name">К оплате</p>
+									<p class="total">6024 €</p>
+								</li>
+							</ul>
+
+							<div class="pay-wrap">
+								<p class="label">Варианты оплаты</p>
+								<p class="checkbox">
+									<label>
+										<input type="checkbox" value="1" name="data2">
+										<span></span>
+										Банковский перевод
+										<i>
+											<img src="img/icon-4-128.svg" alt="">
+										</i>
+									</label>
+								</p>
+								<p class="checkbox">
+									<label>
+										<input type="checkbox" value="1" name="data2">
+										<span></span>
+										Przelewy24
+										<i>	<img src="img/icon-4-129.svg" alt=""></i>
+									</label>
+								</p>
+								<p class="checkbox">
+									<label>
+										<input type="checkbox" value="1" name="data2">
+										<span></span>
+										PayPal
+										<i>
+											<img src="img/icon-4-130.svg" alt="">
+										</i>
+									</label>
+								</p>
+								<p class="checkbox">
+									<label>
+										<input type="checkbox" value="1" name="data2">
+										<span></span>
+										Картой банка
+										<i>
+											<img src="img/icon-4-131.svg" alt="">
+											<img src="img/icon-4-132.svg" alt="">
+											<img src="img/icon-4-133.svg" alt="">
+											<img src="img/icon-4-134.svg" alt="">
+										</i>
+									</label>
+								</p>
+							</div>
+
+
+							<div class="input-wrap input-wrap-submit">
+								<button class="btn-border btn-red btn-18 btn-56h">Подтверждаю заказ</button>
+							</div>
+							<div class="input-wrap input-wrap-radio" >
+								<p class="checkbox checkbox-v2">
+									<label>
+										<input type="checkbox" value="1" name="data1">
+										<span></span>
+										Перезвоните мне для уточнения деталей
+									</label>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="text-wrap">
+						<ul>
+							<li>
+								<img src="img/icon-4-135.svg" alt="">
+								<h6>Поставка в течении 60 минут</h6>
+								<p>Доставим лицензионный ключ по лектронной почте в течении 60 минут, если товар на складе</p>
+							</li>
+							<li>
+								<img src="img/icon-4-136.svg" alt="">
+								<h6>Пакет документов</h6>
+								<p>Пакет бухгалтерских документов будет отправлен на ваш почтовый адрес в течение 3 рабочих дней</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</form>
+
+		</section>
+
+
+
+
+	</main>
+
+  <footer>
+		<div class="bg"></div>
+    <div class="content-width footer">
+				<div class="top">
+					<div class="logo-wrap">
+						<div class="logo">
+							<a href="#"><img src="img/logo-footer.svg" alt=""> <span>Rhinoceros</span></a>
+						</div>
+						<div class="text">
+							<figure>
+								<img src="img/icon-4.svg" alt="">
+							</figure>
+							<p>Дистрибьютор, разработчик русской версии программного пакета Rhino</p>
+						</div>
+					</div>
+					<div class="link-wrap">
+						<ul class="list-contact">
+							<li><a href="mailto:contact@rhino-3d.ru" class="link"><img src="img/icon-5-1.svg" alt=""><span>contact@rhino-3d.ru</span></a></li>
+							<li><a href="tel:+88007779287" class="link"><img src="img/icon-5-2.svg" alt=""><span>8 (800) 777-92-87</span></a></li>
+						</ul>
+						<ul class="soc">
+							<li><a href="#"><img src="img/icon-6-1.svg" alt=""></a></li>
+							<li><a href="#"><img src="img/icon-6-2.svg" alt=""></a></li>
+							<li><a href="#"><img src="img/icon-6-3.svg" alt=""></a></li>
+							<li><a href="#"><img src="img/icon-6-4.svg" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			<nav class="footer-nav">
+				<ul>
+					<li><a href="#">Rhinoceros</a></li>
+					<li><a href="#">Rhinoceros 3D</a></li>
+					<li><a href="#">Grasshopper</a></li>
+					<li><a href="#">Zoo / Cloud Zoo</a></li>
+					<li><a href="#">Rhino.Inside</a></li>
+					<li><a href="#">SubD</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Приложения</a></li>
+					<li><a href="#">Архитектура</a></li>
+					<li><a href="#">Ювелирный дизайн</a></li>
+					<li><a href="#">Визуализация</a></li>
+					<li><a href="#">Симуляция</a></li>
+					<li><a href="#">Grasshopper</a></li>
+					<li><a href="#">ЧПУ</a></li>
+					<li><a href="#">Другое</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Цены</a></li>
+					<li><a href="#">Rhinoceros</a></li>
+					<li><a href="#">Приложения</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Оплата онлайн</a></li>
+					<li><a href="#">Безналичная оплата</a></li>
+					<li><a href="#">Рассрочка</a></li>
+					<li><a href="#">Правила возврата</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Поддержка</a></li>
+					<li><a href="#">Вопрос-ответ</a></li>
+					<li><a href="#">Создать запрос</a></li>
+					<li><a href="#">Форматы файлов</a></li>
+					<li><a href="#">Смена языка</a></li>
+					<li><a href="#">Системные требования</a></li>
+					<li><a href="#">Установка лицензии</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Обучение</a></li>
+					<li><a href="#">Rhinoceros Level 1</a></li>
+					<li><a href="#">Rhinoceros Level 2</a></li>
+					<li><a href="#">Ювелирный курс</a></li>
+					<li><a href="#">Моделирование обуви</a></li>
+					<li><a href="#">Индивидуальное обучение</a></li>
+					<li><a href="#">Мастер-классы</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">3D моделирование</a></li>
+					<li><a href="#">Rhinoceros Level 2</a></li>
+					<li><a href="#">Подготовка модели к печати</a></li>
+					<li><a href="#">От идеи до прототипа</a></li>
+				</ul>
+
+			</nav>
+			<div class="bottom">
+				<ul>
+					<li><p>2021 Все права защищены</p></li>
+					<li><a href="#">Условия использования</a></li>
+					<li><a href="#">Политика конфиденциальности</a></li>
+					<li><a href="#">Лицензионное Соглашение</a></li>
+				</ul>
+			</div>
+    </div>
+  </footer>
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/cuttr.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/intlTelInput.min.js"></script>
+	<script src="js/fixto.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

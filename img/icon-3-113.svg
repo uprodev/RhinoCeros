@@ -1,0 +1,31 @@
+<svg width="299.000000" height="300.000000" viewBox="0 0 299 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<radialGradient id="paint_radial_1537_13493_0" cx="0.000000" cy="0.000000" r="1.000000" gradientUnits="userSpaceOnUse" gradientTransform="translate(74.8469 123.47) rotate(-30.4298) scale(227.896 227.899)">
+			<stop stop-color="#F9FAFE"/>
+			<stop offset="0.000100" stop-color="#E4E7EC"/>
+			<stop offset="0.311830" stop-color="#D6DAE2"/>
+			<stop offset="0.536160" stop-color="#C9CED8"/>
+			<stop offset="0.780030" stop-color="#BBC2CE"/>
+			<stop offset="0.994410" stop-color="#929DB1"/>
+		</radialGradient>
+		<linearGradient id="paint_linear_1537_13494_0" x1="-71.644470" y1="118.553894" x2="118.750320" y2="111.427185" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="0.085630" stop-color="#FFFFFF" stop-opacity="0.956863"/>
+			<stop offset="0.201580" stop-color="#FFFFFF" stop-opacity="0.670588"/>
+			<stop offset="0.368320" stop-color="#FFFFFF" stop-opacity="0.431373"/>
+			<stop offset="0.519450" stop-color="#FFFFFF" stop-opacity="0.247059"/>
+			<stop offset="0.652150" stop-color="#FFFFFF" stop-opacity="0.109804"/>
+			<stop offset="0.761270" stop-color="#FFFFFF" stop-opacity="0.031373"/>
+			<stop offset="0.833290" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.200000">
+		<path id="Vector" d="M149 0C231.84 0 299 67.15 299 150C299 232.84 231.84 300 149 300C66.16 300 -1 232.84 -1 150C-1 67.15 66.16 0 149 0Z" fill="url(#paint_radial_1537_13493_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<g opacity="0.340000">
+			<path id="Vector" d="M10 112.5C10 52.02 47.83 3 94.5 3C141.17 3 179 52.02 179 112.5C179 172.97 141.17 222 94.5 222C47.83 222 10 172.97 10 112.5Z" fill="url(#paint_linear_1537_13494_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>

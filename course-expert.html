@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Rhino</title>
+
+	
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/font.css"/>
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome-5-pro-master/css/all.css"/>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/intlTelInput.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles2.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive2.css"/>
+
+</head>
+<body >
+
+<header>
+	<nav class="sub-menu-wrap" >
+		<div class="content-width">
+			<div class="sub-menu sub-menu-1">
+				<ul>
+					<li>Архитектура</li>
+					<li><a href="#">VisualARQ</a></li>
+					<li><a href="#">Lands Design</a></li>
+				</ul>
+				<ul>
+					<li>Визуализация</li>
+					<li><a href="#">V-Ray</a></li>
+					<li><a href="#">Twinmotion</a></li>
+					<li><a href="#">Lumion </a></li>
+					<li><a href="#">Bongo</a></li>
+					<li><a href="#">Brazil</a></li>
+					<li><a href="#">Flamingo</a></li>
+					<li><a href="#">Enscape</a></li>
+					<li><a href="#">Penguin</a></li>
+				</ul>
+				<ul>
+					<li>Ювелирный дизайн</li>
+					<li><a href="#">MatrixGold</a></li>
+					<li><a href="#">CounterSketch</a></li>
+					<li><a href="#">Panther</a></li>
+				</ul>
+				<ul>
+					<li>Симуляция</li>
+					<li><a href="#">Scan&Solve Pro</a></li>
+					<li><a href="#">RhinoCFD</a></li>
+				</ul>
+				<ul>
+					<li>ЧПУ</li>
+					<li><a href="#">Madcam</a></li>
+					<li><a href="#">RhinoNest</a></li>
+				</ul>
+				<ul>
+					<li>Grasshopper</li>
+					<li><a href="#">LunchBox</a></li>
+					<li><a href="#">Kangaroo</a></li>
+					<li><a href="#">Ladybug</a></li>
+					<li><a href="#">PanelingTools</a></li>
+				</ul>
+				<ul>
+					<li>Другое</li>
+					<li><a href="#">Orca3D</a></li>
+					<li><a href="#">Clayoo</a></li>
+					<li><a href="#">Karamba3D </a></li>
+				</ul>
+			</div>
+			<div class="sub-menu sub-menu-2">
+				<ul>
+					<li><a href="#">Rhinoceros Level 1</a></li>
+					<li><a href="#">Rhinoceros Level 2</a></li>
+					<li><a href="#">Ювелирный курс</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</nav>
+	<div class="top-line">
+		<div class="search-wrap">
+			<div class="content-width">
+				<form action="#" class="form-search" >
+					<label for="search"></label>
+					<input type="search" name="search" id="search" placeholder="Поиск">
+					<button type="submit">Найти</button>
+				</form>
+				<a href="#" class="close-search"><img src="img/close-search.svg" alt=""></a>
+			</div>
+		</div>
+		<div class="content-width">
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/logo.svg" alt="">
+					<img src="img/logo-mob.svg" alt="">
+				</a>
+			</div>
+			<div class="btn-menu">
+				<a href="#menu-responsive" class="menu-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+			<nav class="top-menu-wrap">
+				<ul class="top-menu">
+					<li><a href="rhinoceros.html">Rhinoceros</a></li>
+					<li class="sub sub-1"><a href="application.html">Приложения</a></li>
+					<li><a href="price.html">Цены</a></li>
+					<li class="sub sub-2"><a href="#">Обучение</a></li>
+					<li><a href="services.html">Услуги</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="btn-wrap">
+					<a href="#">Скачать</a>
+				</div>
+			</nav>
+			<div class="right">
+				<div class="search-link">
+					<a href="#"><img src="img/top-search.svg" alt=""></a>
+				</div>
+				<div class="card-wrap">
+					<a href="card.html"><img src="img/card.svg" alt=""> <span>2</span></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</header>
+
+<div class="menu-responsive" id="menu-responsive" style="display: none">
+	<div class="wrap">
+
+		<ul class="mob-menu">
+			<li><a href="rhinoceros.html">Rhinoceros</a></li>
+			<li class="sub sub-1">
+				<a href="application.html">Приложения</a>
+				<div class="sub-menu sub-menu-1">
+					<ul>
+						<li>Архитектура</li>
+						<li><a href="#">VisualARQ</a></li>
+						<li><a href="#">Lands Design</a></li>
+					</ul>
+					<ul class="two-columns">
+						<li>Визуализация</li>
+						<li><a href="#">V-Ray</a></li>
+						<li><a href="#">Twinmotion</a></li>
+						<li><a href="#">Lumion </a></li>
+						<li><a href="#">Bongo</a></li>
+						<li><a href="#">Brazil</a></li>
+						<li><a href="#">Flamingo</a></li>
+						<li><a href="#">Enscape</a></li>
+						<li><a href="#">Penguin</a></li>
+					</ul>
+					<ul>
+						<li>Ювелирный дизайн</li>
+						<li><a href="#">MatrixGold</a></li>
+						<li><a href="#">CounterSketch</a></li>
+						<li><a href="#">Panther</a></li>
+					</ul>
+					<ul>
+						<li>Симуляция</li>
+						<li><a href="#">Scan&Solve Pro</a></li>
+						<li><a href="#">RhinoCFD</a></li>
+					</ul>
+					<ul>
+						<li>ЧПУ</li>
+						<li><a href="#">Madcam</a></li>
+						<li><a href="#">RhinoNest</a></li>
+					</ul>
+					<ul>
+						<li>Grasshopper</li>
+						<li><a href="#">LunchBox</a></li>
+						<li><a href="#">Kangaroo</a></li>
+						<li><a href="#">Ladybug</a></li>
+						<li><a href="#">PanelingTools</a></li>
+					</ul>
+					<ul>
+						<li>Другое</li>
+						<li><a href="#">Orca3D</a></li>
+						<li><a href="#">Clayoo</a></li>
+						<li><a href="#">Karamba3D </a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="price.html">Цены</a></li>
+			<li class="sub sub-2">
+				<a href="#">Обучение</a>
+				<div class="sub-menu sub-menu-2">
+					<ul>
+						<li><a href="#">Rhinoceros Level 1</a></li>
+						<li><a href="#">Rhinoceros Level 2</a></li>
+						<li><a href="#">Ювелирный курс</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="services.html">Услуги</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<div class="btn">
+			<a href="#">Скачать</a>
+		</div>
+	</div>
+</div>
+
+	<main>
+
+		<section class="course-expert-head">
+
+			<div class="content-width">
+				<div class="left">
+					<h1>Индивидуальное обучение с экспертом <span></span></h1>
+					<figure class="mob-img">
+						<img src="img/img-3-104.png" alt="">
+					</figure>
+					<ul>
+						<li>
+							<a href="#training" class="scroll">
+								<div class="icon-wrap">
+									<img src="img/icon-n-9.svg" alt="">
+								</div>
+								<div class="text">
+									<h6>Обучение и внедрение процессов под ключ</h6>
+									<p>Разработаем методологию моделирования и прототипирования для вас, создадим алгоритмы в Grasshopper. Обучим самостоятельно применять в работе</p>
+								</div>
+								<span class="chevron">
+									<span class="text-mob">Подробнее</span>
+									<img src="img/icon-3-102.svg" alt="">
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#tabs-info" class="scroll" >
+								<div class="icon-wrap">
+									<img src="img/icon-n-9.svg" alt="">
+								</div>
+								<div class="text">
+									<h6>Обучение с преподавателем</h6>
+									<p>Вместе с преподавателем вы сможете освоить Rhinoceros 3D, KeyShot, MatrixGold, визуальный язык программирования Grasshopper</p>
+								</div>
+								<span class="chevron">
+									<span class="text-mob">Подробнее</span>
+									<img src="img/icon-3-102.svg" alt="">
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<figure>
+					<img src="img/img-3-100.png" alt="">
+				</figure>
+			</div>
+		</section>
+
+		<section class="training" id="training">
+			<div class="content-width">
+				<div class="title title-dote">
+					<h2>Обучение и внедрение процессов под ключ <span></span></h2>
+				</div>
+				<div class="content">
+					<ul>
+						<li class="item">
+							<div class="bg">
+								<img src="img/bg-3-101.png" alt="">
+							</div>
+							<div class="wrap">
+								<div class="title-wrap">
+									<h6>Оставляете заявку на консультацию</h6>
+								</div>
+								<div class="info-wrap">
+									<p>Оставляете заявку на разработку 3D-модели под ваш проект с обучением у эксперта</p>
+								</div>
+							</div>
+						</li>
+						<li class="item">
+							<div class="bg">
+								<img src="img/bg-3-102.png" alt="">
+							</div>
+							<div class="wrap">
+								<div class="title-wrap">
+									<h6>Проводим консультации</h6>
+								</div>
+								<div class="info-wrap">
+									<p>На консультации фиксируем ваши ожидания и цели, которые перед вами стоят</p>
+								</div>
+							</div>
+						</li>
+						<li class="item">
+							<div class="bg">
+								<img src="img/bg-3-101.png" alt="">
+							</div>
+							<div class="wrap">
+								<div class="title-wrap">
+									<h6>Погружаемся в процессы</h6>
+								</div>
+								<div class="info-wrap">
+									<p>Изучаем ваш производственный цикл и бизнес-процессы</p>
+								</div>
+							</div>
+						</li>
+						<li class="item">
+							<div class="bg">
+								<img src="img/bg-3-102.png" alt="">
+							</div>
+							<div class="wrap">
+								<div class="title-wrap">
+									<h6>Обучаем основам</h6>
+								</div>
+								<div class="info-wrap">
+									<p>Обучаем основам моделирования с индивидуальным подходом по сфере</p>
+								</div>
+							</div>
+						</li>
+						<li class="item">
+							<div class="bg">
+								<img src="img/bg-3-101.png" alt="">
+							</div>
+							<div class="wrap">
+								<div class="title-wrap">
+									<h6>Разрабатываем методологию</h6>
+								</div>
+								<div class="info-wrap">
+									<p>Разрабатываем методологию моделирования и прототипирования для Клиента. Создаём алгоритмы в Grasshopper.</p>
+								</div>
+							</div>
+						</li>
+						<li class="item">
+							<div class="bg">
+								<img src="img/bg-3-102.png" alt="">
+							</div>
+							<div class="wrap">
+								<div class="title-wrap">
+									<h6>Обучаем методологии</h6>
+								</div>
+								<div class="info-wrap">
+									<p>Обучаем этой методологии, чтобы вы могли самостоятельно применять полученные навыки в дальнейшей работе</p>
+								</div>
+							</div>
+						</li>
+						<li class="item item-big">
+							<div class="bg">
+								<img src="img/bg-3-103.png" alt="">
+							</div>
+							<div class="wrap">
+								<div class="title-wrap">
+									<h5>Начните с бесплатной консультации от эксперта</h5>
+								</div>
+								<div class="info-wrap btn-wrap">
+									<a href="#free-consulting" class="btn-red scroll">Получить консультацию</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="about-expert">
+			<div class="bg">
+				<img src="img/icon-3-103.svg" alt="">
+			</div>
+			<div class="content-width">
+				<div class="title">
+					<h2>Почему стоит выбрать индивидуальное обучение с экспертом?</h2>
+				</div>
+				<div class="content">
+					<div class="item">
+						<div class="icon-wrap">
+							<img src="img/icon-3-106.png" alt="">
+						</div>
+						<h6>Персонализированный подход к обучению</h6>
+						<p>Индивидуальное обучение, адаптированное под ваш темп, стиль и конкретные учебные цели</p>
+					</div>
+					<div class="item">
+						<div class="icon-wrap">
+							<img src="img/icon-3-106.png" alt="">
+						</div>
+						<h6>Немедленная обратная связь и поддержка</h6>
+						<p>Получайте мгновенные ответы и рекомендации по вашим вопросам, что обеспечивает глубокое понимание материала</p>
+					</div>
+					<div class="item">
+						<div class="icon-wrap">
+							<img src="img/icon-3-106.png" alt="">
+						</div>
+						<h6>Гибкое расписание</h6>
+						<p>Организуйте занятия в удобное для вас время, что делает процесс обучения более комфортным и удобным</p>
+					</div>
+					<div class="item">
+						<div class="icon-wrap">
+							<img src="img/icon-3-106.png" alt="">
+						</div>
+						<h6>Прототипирование и 3D печать</h6>
+						<p>Вы развиваете навыки не только 3D моделирования, но и узнаете как подготовить модель для 3D принтера или станка ЧПУ, особенности оборудования и подбор материалов</p>
+					</div>
+					<div class="item">
+						<div class="icon-wrap">
+							<img src="img/icon-3-106.png" alt="">
+						</div>
+						<h6>Актуальные знания</h6>
+						<p>Получайте знания от профессионалов с актуальным опытом в индустрии, что гарантирует изучение последних практик и инструментов</p>
+					</div>
+					<div class="item">
+						<div class="icon-wrap">
+							<img src="img/icon-3-106.png" alt="">
+						</div>
+						<h6>Возможности для нетворкинга</h6>
+						<p>Налаживайте связи с экспертами и профессионалами в вашей области, что открывает двери к будущим карьерным возможностям.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--блок курсов з https://dev.rhino3d.online/product/rhinoceros/-->
+
+		<section class="tabs-info" id="tabs-info">
+			<div class="content-width">
+				<h3 class="title">Обучение <b>включает модели и материалы</b> из интересующей вас сферы, а наши преподаватели помогут освоить навыки 3D-моделирования в Rhinoceros, востребованные в этой профессиональной области</h3>
+				<div class="tabs">
+					<ul class="tabs-menu">
+						<li>Архитектура</li>
+						<li>Ювелирный дизайн</li>
+						<li>Ландшафтный дизайн</li>
+						<li>Промышленный дизайн</li>
+						<li>Авиация и космонавтика</li>
+						<li>Машиностроение</li>
+						<li>Обувь и одежда</li>
+						<li>Арт объекты</li>
+						<li>Медицина</li>
+						<li>ЧПУ</li>
+
+					</ul>
+					<div class="tab-content">
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Архитектура</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Ювелирный дизайн</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Ландшафтный дизайн</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Промышленный дизайн</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Авиация и космонавтика</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Машиностроение</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Обувь и одежда</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Арт объекты</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">Медицина</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="tab-item">
+							<figure>
+								<img src="img/img-3-101.jpeg" alt="">
+							</figure>
+							<div class="text-wrap">
+								<h3 class="title-h3">ЧПУ</h3>
+								<ul>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Работа с полигональными сетками</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+									<li>
+										<h6 class="title-img"><img src="img/icon-3-106.png" alt="">Создание текстур и материалов</h6>
+										<p>Понимание того, как создавать и редактировать полигональные сетки, важно для создания реалистичных 3D моделей, которые могут быть использованы в авиационной и космической отрасли.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="video-section">
+			<div class="content-width">
+				<div class="title title-dote">
+					<h2>Возможности Rhinoceros <span></span></h2>
+					<p>Ознакомьтесь с широкими возможностями Rhinoceros для профессиональной деятельности в нашем проморолике</p>
+				</div>
+				<div class="video-wrap">
+					<a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+						<img src="img/img-3-102.jpeg" alt="" class="img-bg">
+						<span class="icon-wrap"></span>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="free-consulting title-dote" id="free-consulting">
+			<div class="bg">
+				<img src="img/bg-3-104.png" alt="">
+			</div>
+			<div class="content-width">
+				<div class="text-wrap">
+					<h2>Получите бесплатную консультацию от эксперта<span></span></h2>
+					<ul>
+						<li>
+							<img src="img/icon-4-137.svg" alt="">
+							<h6>Индивидуальный подход</h6>
+							<p>Обучение включает индивидуальную программу и домашние задания из интересующей вас сферы</p>
+						</li>
+						<li>
+							<img src="img/icon-4-138.svg" alt="">
+							<h6>Авторизованный учебный центр McNeel</h6>
+							<p>Наши преподаватели прошли сертификацию McNeel, что гарантирует их высокий уровень владения материалом</p>
+						</li>
+						<li>
+							<img src="img/icon-4-139.svg" alt="">
+							<h6>Официальный сертификат</h6>
+							<p>После проверки ваших заданий преподавателем, вы получите официальный сертификат об окончании курсов</p>
+						</li>
+						<li>
+							<img src="img/icon-4-140.svg" alt="">
+							<h6>Беспроцентная рассрочка</h6>
+							<p>Беспроцентная рассрочка возможна в индивидуальном порядке, свяжитесь с нами для обсуждения деталей</p>
+						</li>
+					</ul>
+				</div>
+				<div class="form-wrap">
+					<p>На консультации мы разберём цели, которые перед вами стоят, и наши эксперты предложат оптимальный путь их достижения с минимальными временными и финансовыми затратами.  </p>
+					<p>Оценим ваш уровень владения инструментами моделирования, чтобы вы могли совершенствоваться в своём деле.</p>
+					<form action="#" class="label-inner">
+
+						<div class="input-wrap">
+							<label for="name" class="">Имя</label>
+							<input type="text" id="name" name="name" required="required">
+							<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+						</div>
+						<div class="input-wrap">
+							<label for="email">Почта</label>
+							<input type="email" id="email" name="email" required="required"/>
+							<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+						</div>
+						<div class="input-wrap input-wrap-tel">
+							<label for="tel"></label>
+							<input type="text" id="tel" name="tel" required="required" class="tel-mask"/>
+							<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+						</div>
+						<div class="select-block input-wrap">
+							<label class="form-label" for="lang"></label>
+							<select id="lang">
+								<option value="0" selected disabled>Сфера деятельности</option>
+								<option value="1">Архитектура</option>
+								<option value="2">Ювелирный дизайн</option>
+								<option value="3">Промышленный дизайн</option>
+								<option value="4">Промышленный дизайн</option>
+								<option value="5">Промышленный дизайн</option>
+							</select>
+						</div>
+						<div class="input-wrap input-wrap-submit">
+							<button class="btn-red btn-big fancybox-ok">Получить консультацию</button>
+
+						</div>
+						<div class="input-wrap-check">
+							<input type="checkbox" name="check1" id="check1" checked>
+							<label for="check1"></label>
+							<p>Нажимая кнопку записаться, вы даёте согласен на обработку персональных данных согласно <a href="#">Политики конфеденциальности</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="corporate-training">
+			<div class="content-width">
+				<div class="content">
+					<div class="bg">
+						<img src="img/img-3-103.png" alt="">
+						<img src="img/img-3-105.png" alt="" class="mob">
+					</div>
+					<div class="wrap">
+						<h3>Интересует корпоративное обучение?</h3>
+						<p>Мы обучим ваших сотрудников последним технологиями 3D моделирования для максимально эффективной и продуктивной работы.
+							Чем больше учеников, тем меньше стоимость курса!</p>
+
+					</div>
+					<div class="btn-wrap">
+						<a href="#" class="btn-red btn-black btn-18">Связаться с нами</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+
+
+	<div id="event" class="popup-site popup-event" style="display: none">
+		<div class="main-wrap">
+			<h5>Бесплатный мастер — класс</h5>
+			<p>Создание музыкальной колонки в Rhino</p>
+			<figure>
+				<img src="img/img-5.jpg" alt="">
+			</figure>
+			<a href="#" class="btn-red">Регистрация</a>
+		</div>
+	</div>
+
+	<div id="course" class="popup-site popup-course" style="display: none">
+		<div class="bg"></div>
+		<div class="main-wrap">
+			<h4>Запись на курс</h4>
+			<p>Заполните форму записи на курс, затем ваш курс будет добавлен в корзину для оплаты. После оплаты, на ваш почтовый адрес придет письмо с последующей инструкцией.</p>
+			<form action="#" class="label-inner">
+				<div class="input-wrap">
+					<label for="name-popup">Имя*</label>
+					<input type="text" id="name-popup" name="name-popup" required="required"/>
+					<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+				</div>
+				<div class="input-wrap">
+					<label for="email-popup">Почта*</label>
+					<input type="email" id="email-popup" name="email-popup" required="required"/>
+					<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+				</div>
+				<div class="input-wrap">
+					<label for="tel-popup">Телефон*</label>
+					<input type="text" id="tel-popup" name="tel-popup" required="required"/>
+					<span><i class="far fa-check"></i> <i class="fal fa-times"></i></span>
+				</div>
+				<div class="bottom-wrap">
+					<div class="input-wrap input-wrap-check">
+						<p>
+							<label>
+								<input type="checkbox" value="1" name="data">
+								<span></span>
+								<i>Я ознакомлен с <a href="#">политикой конфеденциальности</a> и согласен на обработку персональных данных</i>
+							</label>
+						</p>
+					</div>
+					<div class="input-wrap input-wrap-submit">
+						<button class="btn-border btn-big">Скачать</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<div class="fix-block" style="display: none">
+		<div class="cookie" >
+			<div class="content-width">
+				<p>Наш сайт использует файлы cookie. Продолжая им пользоваться вы соглашаетесь на обработку персональных данных в соответствии с
+					<a href="#">политикой конфиденциальности</a> </p>
+				<div class="btn-wrap">
+					<a href="#">Принять</a>
+				</div>
+			</div>
+		</div>
+		<div class="event" >
+			<div class="content-width">
+				<figure>
+					<img src="img/img-2.jpg" alt="">
+				</figure>
+				<div class="text-wrap">
+					<h6>Бесплатный мастер — класс</h6>
+					<p>Создание музыкальной колонки в Rhino</p>
+				</div>
+				<div class="btn-wrap">
+					<a href="#event" class="fancybox">Регистрация</a>
+				</div>
+				<a href="#" class="close-event"><img src="img/close-red.svg" alt=""></a>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/cuttr.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/intlTelInput.min.js"></script>
+	<script src="js/fixto.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
