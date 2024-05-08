@@ -4067,4 +4067,9 @@ footer .bottom ul {
   top: 40px;
 }
 
+.order-block-v2 .checkbox label input:checked + span:after {
+  top: 5px;
+  left: 5px;
+}
+
 /*# sourceMappingURL=styles2.css.map */
